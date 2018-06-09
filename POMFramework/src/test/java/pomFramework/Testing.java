@@ -11,10 +11,7 @@ public class Testing {
 	
 	static WebDriver driver;
 
-	/**
-	 * @param args
-	 * @throws IOException 
-	 */
+	
 	@Test(priority=1)
 	public static void umplogin() throws IOException {
 		// TODO Auto-generated method stub
