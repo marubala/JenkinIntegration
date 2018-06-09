@@ -241,7 +241,7 @@ public class BaseClass {
 		
 		//Keys.chord(Keys.CONTROL, "a");
 		
-	public static void SendKey(String keyvalue) throws IOException, AWTException, InterruptedException {
+	/*public static void SendKey(String keyvalue) throws IOException, AWTException, InterruptedException {
 		
 		switch(keyvalue.toUpperCase())
 		{
@@ -263,12 +263,12 @@ public class BaseClass {
 			
 		}
 		Thread.sleep(3000);
-	}
+	}*/
 	
 	
 	//*******************************************************************************************************************************
 	
-		public static void robotSendKey(String keyvalue) throws IOException, AWTException, InterruptedException {
+	/*	public static void robotSendKey(String keyvalue) throws IOException, AWTException, InterruptedException {
 			Robot rbt = new Robot();
 			switch(keyvalue.toUpperCase())
 			{
@@ -295,7 +295,7 @@ public class BaseClass {
 				
 			}
 			Thread.sleep(3000);
-		}
+		}*/
 	
 	public static String getCurrentDate(int ipDate)
 	{
