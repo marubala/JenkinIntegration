@@ -1,4 +1,4 @@
-package pomFramework.pomFramework;
+package pomFramework;
 
 import java.awt.AWTException;
 import java.awt.Robot;

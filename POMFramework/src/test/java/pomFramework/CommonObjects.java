@@ -1,4 +1,4 @@
-package pomFramework.pomFramework;
+package pomFramework;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.By;

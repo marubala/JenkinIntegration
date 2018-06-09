@@ -1,14 +1,12 @@
 
-package pomFramework.pomFramework;
+package pomFramework;
 
 import java.io.IOException;
 
-
-//Object Class imports
-import pomFramework.pomFramework.Login;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
+
+import pomFramework.Login;
 public class Testing {
 	
 	static WebDriver driver;
