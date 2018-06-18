@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27208" started-at="2018-06-09T00:32:47Z" finished-at="2018-06-09T00:33:14Z">
+  <suite name="Suite" duration-ms="26016" started-at="2018-06-18T23:36:48Z" finished-at="2018-06-18T23:37:14Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27208" started-at="2018-06-09T00:32:47Z" finished-at="2018-06-09T00:33:14Z">
+    <test name="Test" duration-ms="26016" started-at="2018-06-18T23:36:48Z" finished-at="2018-06-18T23:37:14Z">
+      <class name="pomFramework.Logout">
+        <test-method status="PASS" signature="umplogout()[pri:1, instance:pomFramework.Logout@3fee9989]" name="umplogout" duration-ms="6913" started-at="2018-06-18T23:37:07Z" finished-at="2018-06-18T23:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- umplogout -->
+      </class> <!-- pomFramework.Logout -->
       <class name="pomFramework.Testing">
-        <test-method status="PASS" signature="umplogin()[pri:1, instance:pomFramework.Testing@4cf777e8]" name="umplogin" duration-ms="27147" started-at="2018-06-09T00:32:47Z" finished-at="2018-06-09T00:33:14Z">
+        <test-method status="PASS" signature="umplogin()[pri:1, instance:pomFramework.Testing@2f686d1f]" name="umplogin" duration-ms="19049" started-at="2018-06-18T23:36:48Z" finished-at="2018-06-18T23:37:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- umplogin -->

@@ -713,6 +713,21 @@ pause
  */
 
 
+/* Error in Jenkins : strings in switch are not supported in -source 1.5 (use -source 7 or higher to enable strings in switch)".
+ * 
+ * 1. Add the below plugin in pom.xml
+ * <plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.7.0</version>
+				<configuration>
+				<source>1.8</source>
+				<target>1.8</target>
+			</configuration>
+	</plugin>
+ * 
+ */
+
 
 
 
